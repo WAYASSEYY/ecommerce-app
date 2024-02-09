@@ -1,31 +1,32 @@
-import { StyleSheet } from 'react-native';
-
+import { ScrollView, StyleSheet } from 'react-native';
 import EditScreenInfo from '@/components/EditScreenInfo';
 import { Text, View } from '@/components/Themed';
+import Categorycontainer from '@/components/category-container';
+import Bestselling from '@/components/bestselling';
+import Promo from '@/components/promo';
+// import { categorycontainer } from '@/components/category-container';
 
-export default function TabOneScreen() {
+export default function Home() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Tab One</Text>
-      <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
-      <EditScreenInfo path="app/(tabs)/index.tsx" />
-    </View>
+      <ScrollView showsVerticalScrollIndicator={false}>
+
+      <Categorycontainer/>
+      <Promo/>
+      <Bestselling/>
+      </ScrollView>
+    </View> 
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
+    height:"100%",
+    // borderWidth:1,
+    backgroundColor:"white",
+    margin:1,
+    padding:16
   },
-  title: {
-    fontSize: 20,
-    fontWeight: 'bold',
-  },
-  separator: {
-    marginVertical: 30,
-    height: 1,
-    width: '80%',
-  },
+
+ 
 });
