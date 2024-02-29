@@ -1,0 +1,14 @@
+{
+    "users": [
+        {"id":1,"fullname":"Saba Impett","email":"simpett0@histats.com","password":"v7~z%bJi?"},
+    {"id":2,"fullname":"Belvia Purcell","email":"bpurcell1@sciencedirect.com","password":"b6SkJDnUQT"},
+    {"id":3,"fullname":"Almeta Hyett","email":"ahyett2@admin.ch","password":"d91pYW2"},
+    {"id":4,"fullname":"Austina Khilkov","email":"akhilkov3@ted.com","password":"q5guvwScCXgO"},
+    {"id":5,"fullname":"Colin Greenside","email":"cgreenside4@bigcartel.com","password":"b92Jg)Vn"},
+    {"id":6,"fullname":"Cristi Rumbold","email":"crumbold5@indiegogo.com","password":"k29k<Vb"},
+    {"id":7,"fullname":"Cecile Radki","email":"cradki6@slate.com","password":"k8P2j&3"},
+    {"id":8,"fullname":"Wayland Scase","email":"wscase7@example.com","password":"o3#8wOoUm"},
+    {"id":9,"fullname":"Fiona Truwert","email":"ftruwert8@linkedin.com","password":"p98F3oA"},
+    {"id":10,"fullname":"Daryl Alforde","email":"dalforde9@symantec.com","password":"g8KjkYiR"}
+    ]
+}
